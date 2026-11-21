@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="uz">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Uchrashuvga taklif 💌</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="card">
+  <section id="step1">
+    <div class="emoji">💖</div>
+    <h1>Men bilan uchrashuvga borasanmi?</h1>
+    <p class="sub" id="sub">Juda muhim savol... o'ylab javob ber 😊</p>
+    <div class="row">
+      <button class="yes" id="yesBtn">Ha 💗</button>
+      <button class="no" id="noBtn">Yo'q</button>
+    </div>
+  </section>
+
+  <section id="step2" class="hidden">
+    <div class="emoji">📍</div>
+    <h1>Qayerga boramiz?</h1>
+    <p class="sub">Joyni tanla</p>
+    <div class="row">
+      <button class="opt" data-place="Parkent">🌳 Parkent</button>
+      <button class="opt" data-place="Yangibozor">🌸 Yangibozor</button>
+    </div>
+  </section>
+
+  <section id="step3" class="hidden">
+    <div class="late-msg" id="lateMsg"></div>
+    <div class="emoji">⏰</div>
+    <h1>Soat nechada?</h1>
+    <p class="sub">Qulay vaqtni tanla</p>
+    <div class="row">
+      <button class="opt" data-time="9:00">9:00</button>
+      <button class="opt" data-time="10:00">10:00</button>
+      <button class="opt" data-time="11:00">11:00</button>
+    </div>
+  </section>
+
+  <section id="step4" class="hidden">
+    <div class="emoji">🥰</div>
+    <h1>Rahmat, kelishdik!</h1>
+    <p class="summary" id="summary"></p>
+    <div class="row">
+      <button class="yes" id="sendBtn">Menga yuborish 💌</button>
+    </div>
+  </section>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
